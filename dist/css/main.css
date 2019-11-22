@@ -237,5 +237,4 @@ main {
 @media screen and (max-width: 500px) {
   .bio-image {
     width: 100px;
-    height: 100px;
-    flex: none; } }
+    height: 100px; } }
