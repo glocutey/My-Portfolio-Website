@@ -113,6 +113,25 @@ main {
   }
 }
 
+//Work/Projects
+.projects-listing {
+  overflow: hidden;
+  list-style: none;
+  line-height: 35px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+
+  a {
+    padding: 0.4rem;
+
+    &:hover {
+      color: $secondary-color;
+      @include easeOut();
+    }
+  }
+}
+
 #main-footer {
   text-align: center;
   padding: 1rem;

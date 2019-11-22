@@ -180,6 +180,19 @@ main {
       padding: 0.5rem;
       border-bottom: #f783d4 5px solid; }
 
+.projects-listing {
+  overflow: hidden;
+  list-style: none;
+  line-height: 35px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto; }
+  .projects-listing a {
+    padding: 0.4rem; }
+    .projects-listing a:hover {
+      color: #f783d4;
+      transition: all 0.5s ease-out; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
@@ -220,3 +233,9 @@ main {
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; } }
+
+@media screen and (max-width: 500px) {
+  .bio-image {
+    width: 100px;
+    height: 100px;
+    flex: none; } }
